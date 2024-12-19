@@ -40,3 +40,7 @@ streamlit run app.py
 ```
 
 Esto ejecutará una aplicación en localhost:8501. La primera vez que se ejecuta el código creará la base de datos vectorizada para el RAG, y después se podrá acceder a esa información sin necesidad de volver a ejecutar todo.
+
+# 4. Trabajo futuro
+
+Por el momento, el modelo no es muy bueno generando respuestas. La intención es seguir desarrollando este trabajo para poder hacer un programa más robusto.
