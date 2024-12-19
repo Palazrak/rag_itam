@@ -1,0 +1,38 @@
+name: rag_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pip:
+      - accelerate==1.2.1
+      - aiofiles==24.1.0
+      - beautifulsoup4==4.12.3
+      - bitsandbytes==0.45.0
+      - docx2txt==0.8
+      - emoji==2.14.0
+      - huggingface_hub
+      - langchain==0.3.13
+      - matplotlib-inline
+      - nltk==3.9.1
+      - onnxruntime  # For non-CUDA systems
+      - onnxruntime-gpu  # For CUDA systems; remove for non-CUDA
+      - protobuf==4.25.3
+      - PyMuPDF==1.25.1
+      - pytesseract==0.3.13
+      - sentence-transformers==3.3.1
+      - streamlit
+      - tiktoken==0.8.0
+      - torch==2.5.1+cu118
+      - torchaudio==2.5.1+cu118
+      - torchvision==0.20.1+cu118
+      - torchaudio
+      - torchvision
+      - transformers
+      - unstructured==0.16.11
+      - uvicorn
