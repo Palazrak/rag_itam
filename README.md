@@ -1,5 +1,6 @@
 
 # Proyecto AutoML Otoño 2024
+### Pablo Alazraki, Frida Márquez, Andrea Martínez
 
 # RAG para Ciencia de Datos
 
